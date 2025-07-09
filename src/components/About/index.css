@@ -1,0 +1,402 @@
+
+@media  only screen and (max-width:600px){
+  .about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  color: white;
+  padding: 40px 20px;
+  padding-top: 0px;
+  text-align: center;
+  min-height: 100vh;
+  transition: 2s;
+  margin-bottom: 0px;
+}
+
+.about-head {
+  font-size: 2.1rem;
+  margin-bottom: 20px;
+  animation: slideDown 1s ease-out forwards;
+  transition: 2s;
+  color:#7cf03d ;
+  text-shadow: 0 0 4px #7cf03d,
+    0 0 10px #7cf03d,
+    0 0 20px #7cf03d;
+}
+
+.about-pera {
+  font-size: 12px;
+  line-height: 1.6;
+  max-width: 800px;
+  animation: fadeUp 1.5s ease-out forwards;
+  color: #598541;
+  font-weight: bold;
+  
+}
+.about-skil-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.about-skil {
+  background-color:transparent;
+  border: 1px solid gray;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px;
+  border-radius: 20px;
+  font-size: 1rem;
+   transition: all 0.3s ease;
+   cursor: pointer;
+    display: inline-block;
+  will-change: transform;
+}
+
+.about-skil:hover {
+  transform: scale(1.1);
+  background-color: #7cf03d;
+  box-shadow: 0 0 10px #7cf03d;
+  color: black;
+}
+.about-allcard-containers{
+    display: flex;
+    flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aboutskil-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 75%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    margin: 20px;
+    border:1px solid #7cf03d;
+    transition: transform 0.8s ease, box-shadow 0.3s ease;
+}
+.aboutskil-card:hover{
+     box-shadow: 0 0 10px #7cf03d;
+      transform: scale(1.1);
+     border: 0px;
+}
+.aboutskil-head{
+    font-size: 18px;
+    font-weight: 400;
+    color: #7cf03d;
+}
+.aboutskil-pera{
+    color: gray;
+}
+.aboutskil-icon1{
+    color: blueviolet;
+    font-size: 30px;
+}
+.aboutskil-icon2{
+    color: #8a2387;
+    font-size: 30px;
+}
+.aboutskil-icon3{
+    color: #ffc169;
+    font-size: 30px;
+}
+.aboutskil-icon4{
+    color: #00c898;
+    font-size: 30px;
+}
+
+
+/* Keyframe Animations */
+.animation-container{
+  animation: scrolling both;
+  animation-timeline: view();
+   animation-range:entry 20% 50% ;
+}
+
+@keyframes scrolling{
+  from{
+    opacity: 0;
+    transform: translateY(10px) scale(0.5);
+    
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+}
+@media only screen and (min-width: 1025px) {
+  /* Styles for laptops and desktops */
+  .about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  color: white;
+  padding: 40px 20px;
+  padding-top: 0px;
+  text-align: center;
+  min-height: 100vh;
+  transition: 2s;
+  
+}
+
+.about-head {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  animation: slideDown 1s ease-out forwards;
+  transition: 2s;
+  color:#7cf03d ;
+  text-shadow: 0 0 4px #7cf03d,
+    0 0 10px #7cf03d,
+    0 0 20px #7cf03d;
+}
+
+.about-pera {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 800px;
+  animation: fadeUp 1.5s ease-out forwards;
+  color: #598541;
+  font-weight: bold;
+  
+}
+.about-skil-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+.about-skil {
+  background-color:transparent;
+  border: 1px solid gray;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px;
+  border-radius: 20px;
+  font-size: 1rem;
+   transition: all 0.3s ease;
+   cursor: pointer;
+    display: inline-block;
+  will-change: transform;
+}
+
+.about-skil:hover {
+  transform: scale(1.1);
+  background-color: #7cf03d;
+  box-shadow: 0 0 10px #7cf03d;
+  color: black;
+}
+.about-allcard-containers{
+    display: flex;
+    flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.aboutskil-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 35%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    margin: 20px;
+    border:1px solid #7cf03d;
+    transition: transform 0.8s ease, box-shadow 0.3s ease;
+}
+.aboutskil-card:hover{
+     box-shadow: 0 0 10px #7cf03d;
+      transform: scale(1.1);
+     border: 0px;
+}
+.aboutskil-head{
+    font-size: 18px;
+    font-weight: 400;
+    color: #7cf03d;
+}
+.aboutskil-pera{
+    color: gray;
+}
+.aboutskil-icon1{
+    color: blueviolet;
+    font-size: 30px;
+}
+.aboutskil-icon2{
+    color: #8a2387;
+    font-size: 30px;
+}
+.aboutskil-icon3{
+    color: #ffc169;
+    font-size: 30px;
+}
+.aboutskil-icon4{
+    color: #00c898;
+    font-size: 30px;
+}
+
+
+/* Keyframe Animations */
+.animation-container{
+  animation: scrolling both;
+  animation-timeline: view();
+   animation-range:entry 20% 50% ;
+}
+
+@keyframes scrolling{
+  from{
+    opacity: 0;
+    transform: translateY(10px) scale(0.5);
+    
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+   .about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  color: white;
+  padding: 40px 20px;
+  padding-top: 0px;
+  text-align: center;
+  min-height: 100vh;
+  transition: 2s;
+  
+}
+
+.about-head {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  animation: slideDown 1s ease-out forwards;
+  transition: 2s;
+  color:#7cf03d ;
+  text-shadow: 0 0 4px #7cf03d,
+    0 0 10px #7cf03d,
+    0 0 20px #7cf03d;
+}
+
+.about-pera {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 800px;
+  animation: fadeUp 1.5s ease-out forwards;
+  color: #598541;
+  font-weight: bold;
+  
+}
+.about-skil-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+flex-wrap: wrap;
+}
+.about-skil {
+  background-color:transparent;
+  border: 1px solid gray;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px;
+  border-radius: 20px;
+  font-size: 1rem;
+   transition: all 0.3s ease;
+   cursor: pointer;
+    display: inline-block;
+  will-change: transform;
+  
+}
+
+.about-skil:hover {
+  transform: scale(1.1);
+  background-color: #7cf03d;
+  box-shadow: 0 0 10px #7cf03d;
+  color: black;
+}
+.about-allcard-containers{
+    display: flex;
+    flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.aboutskil-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 35%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    margin: 20px;
+    border:1px solid #7cf03d;
+    transition: transform 0.8s ease, box-shadow 0.3s ease;
+}
+.aboutskil-card:hover{
+     box-shadow: 0 0 10px #7cf03d;
+      transform: scale(1.1);
+     border: 0px;
+}
+.aboutskil-head{
+    font-size: 18px;
+    font-weight: 400;
+    color: #7cf03d;
+}
+.aboutskil-pera{
+    color: gray;
+}
+.aboutskil-icon1{
+    color: blueviolet;
+    font-size: 30px;
+}
+.aboutskil-icon2{
+    color: #8a2387;
+    font-size: 30px;
+}
+.aboutskil-icon3{
+    color: #ffc169;
+    font-size: 30px;
+}
+.aboutskil-icon4{
+    color: #00c898;
+    font-size: 30px;
+}
+
+
+/* Keyframe Animations */
+.animation-container{
+  animation: scrolling both;
+  animation-timeline: view();
+   animation-range:entry 20% 50% ;
+}
+
+@keyframes scrolling{
+  from{
+    opacity: 0;
+    transform: translateY(10px) scale(0.5);
+    
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+}
