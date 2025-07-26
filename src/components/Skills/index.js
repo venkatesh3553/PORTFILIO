@@ -48,7 +48,7 @@ const Skills = () => (
                             <div className="skill-item animation-container">
                                 <div className="skill-info animation-container">
                                     <span className="skill-name animation-container">React</span>
-                                    <span className="skill-percentage animation-container">09%</span>
+                                    <span className="skill-percentage animation-container">90%</span>
                                 </div>
                                 <div className="skill-bar animation-container">
                                     <div className="skill-progress-react animation-container" ></div>
