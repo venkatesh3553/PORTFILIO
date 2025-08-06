@@ -552,6 +552,7 @@ animation-timeline: view(30% 50%);
   outline: none;
   border-radius: 7px;
   margin-left: 10px;
+  margin-left: 5px;
   margin-bottom: 10px;
   background-color: #7cf03d;
   color: black;
@@ -651,5 +652,6 @@ animation-timeline: view(30% 50%);
 }
 
 }
+
 
 
