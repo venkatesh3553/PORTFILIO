@@ -143,8 +143,9 @@
 .poject-button-container{
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
+  
 }
 .project-summary-pera{
   color:  rgb(6, 115, 46);
@@ -648,4 +649,5 @@ animation-timeline: view(30% 50%);
     transform: translateY(0px) scale(1);
   }
 }
+
 }
