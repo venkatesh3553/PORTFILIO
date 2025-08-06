@@ -580,7 +580,7 @@ animation-timeline: view(30% 50%);
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 100%;
+    width: 80%;
 }
 .project-summary-pera{
   color:  rgb(6, 115, 46);
@@ -652,6 +652,7 @@ animation-timeline: view(30% 50%);
 }
 
 }
+
 
 
 
