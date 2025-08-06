@@ -361,7 +361,7 @@ animation-timeline: view(30% 50%);
 .poject-button-container{
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
 }
 .project-summary-pera{
@@ -578,7 +578,7 @@ animation-timeline: view(30% 50%);
 .poject-button-container{
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
 }
 .project-summary-pera{
@@ -651,3 +651,4 @@ animation-timeline: view(30% 50%);
 }
 
 }
+
