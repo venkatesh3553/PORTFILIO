@@ -529,8 +529,8 @@ animation-timeline: view(30% 50%);
   align-items: center;
   justify-content: center;
   text-decoration: wavy;
-  height: 36px;
-  width: 100px;
+  height: 33px;
+  width: 85px;
   outline: none;
   border-radius: 7px;
   margin-left: 30px;
@@ -547,8 +547,8 @@ animation-timeline: view(30% 50%);
   align-items: center;
   justify-content: center;
   text-decoration: wavy;
-  height: 36px;
-  width: 100px;
+  height: 33px;
+  width: 85px;
   outline: none;
   border-radius: 7px;
   margin-left: 10px;
@@ -651,4 +651,5 @@ animation-timeline: view(30% 50%);
 }
 
 }
+
 
